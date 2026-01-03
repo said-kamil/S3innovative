@@ -49,7 +49,7 @@ h2 {
   margin-top: 25px;
 }
 
-.card {
+.fertilizer {
   background: #fff;
   border-radius: 12px;
   padding: 20px;
@@ -57,12 +57,12 @@ h2 {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.card:hover {
+.fertilizer:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.card img {
+.fertilizer img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -73,21 +73,21 @@ h2 {
   color: #080808;
 }
 
-.gallery {
+.farm {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   margin-top: 30px;
 }
 
-.gallery img {
+.farm img {
   width: 100%;
   border-radius: 12px;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.gallery img:hover {
+.farm img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
